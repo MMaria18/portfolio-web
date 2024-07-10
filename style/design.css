@@ -11,9 +11,11 @@
 /* nav design */
 nav{
     display: flex;
-    align-items: center;
+    /* to keep items in the same line vertically */
+    align-items: center;   
+
     justify-content:space-between ;
-    margin:0 20px ;
+    margin:0 200px ;
 }
 
 .topword{
@@ -59,7 +61,46 @@ nav ul{
     display: flex;
 
 }
+/* banner styles */
+.banner-greet{
+    font-size: 45px;
+    font-weight:600;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+    color: #181818;
+
+}
+
+.head-discription{
+    font-weight: normal;
+    font-size: 18;
+    color: #757575;
 
 
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-pic{
+    width: 660px;
+   
+
+}
+.banner-content{
+    width: 585px; 
+    margin: 136px 130px 184px 230px ;
+}
+
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+    background-color: #FFF8F3;
+}
 
 
