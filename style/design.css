@@ -99,8 +99,100 @@ nav ul{
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left, bottom right ;
+    background-position: left, bottom right ;
     background-color: #FFF8F3;
 }
+
+.title-me{
+    font-weight: bold;
+    font-size: 35px;
+    color:#181818;
+
+
+}
+
+.about-des{
+    font-weight: normal;
+    font-size: 18px;
+    color: #757575;
+
+
+}
+/* main styles */
+.main{
+    max-width: 1140px;
+    margin :0 auto;
+
+}
+
+
+
+.about{
+    background-color:#FFF8F3 ;
+    padding: 131px 193px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+/* about logos */
+.logomain{
+    display: flex;
+    justify-content: space-around;
+    width: 766px;
+    height: 65px;
+    margin-top: 30px;;
+
+}
+.about-d{
+    color:#757575 ;
+    font-size: 20px;
+
+}
+
+.aboutdes{
+    font-weight: bold;
+    color: #474747;
+
+
+}
+.text{
+   
+    text-align: center;
+   
+}
+
+.whatdes{
+    font-size: 18px;
+    font-weight:normal;
+    color:#757575 ;
+
+}
+.skill{
+   
+    gap: 24px;
+    display: flex;
+    
+}
+.skillcon{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgb(224, 211, 211);
+    
+
+}
+.what-sec{
+    padding-top:133px ;
+}
+
+.resume{
+    display: flex;
+    gap: 25px;
+}
+
+.summary{
+    margin: 200px;
+
+
+}
+
 
 
